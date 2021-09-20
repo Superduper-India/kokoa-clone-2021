@@ -25,6 +25,7 @@
 .notice-icon i {
     color: #ff6129;
     position: absolute;
+    font-size: 10px;
 }
 .user-component__column:last-child {
     color: #2e363e;
@@ -47,7 +48,7 @@
     flex-direction: column;
     align-items: center;
 }
-.more-suggestions__icon-image {
+.more-suggestions__icon-image img {
     width: 60px;
     height: 60px;
     background-color: var(--yellow);
@@ -60,4 +61,12 @@
 .more-suggestions__icon-image i {
     font-size: 32px;
     color: white;
+    width: 60px;
+    height: 60px;
+    background-color: var(--yellow);
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
 }

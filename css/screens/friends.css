@@ -22,7 +22,7 @@
     margin-bottom: 30px;
     display: flex;
     justify-content: space-between;
-    color: var(--grey-color3);
+    color: var(--grey-color2);
 }
 .friends-screen {
     padding: 0 var(--horizontal-space);
