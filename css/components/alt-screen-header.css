@@ -1,0 +1,34 @@
+.alt-header {
+    padding: var(--horizontal-space);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* screen-header 에서 복사한 부분 */
+    padding: 0 var(--horizontal-space);
+    margin-bottom: 15px;
+    width: 100%;
+    position: fixed;
+    top: 46px;
+    box-sizing: border-box;
+}
+.alt-header__title {
+    font-size: 28px;
+    font-weight: 600;
+}
+.alt-header__column {
+    width: 33%
+}
+.alt-header__column:first-child {
+    margin-right: auto;
+}
+.alt-header__column:nth-child(2) {
+    text-align: center;
+}
+.alt-header__column:last-child {
+    margin-left: auto;
+    display: flex;
+    justify-content: flex-end;
+}
+.alt-header__column span:first-child {
+    margin-right: 20px;
+}

@@ -1,3 +1,8 @@
 :root {
     --yellow: #fae100;
+    --horizontal-space: 25px;
+    --main-border: 1px solid rgba(0,0,0,0.1);
+    --grey-color1: rgba(0,0,0,0.3);
+    --grey-color2: rgba(0,0,0,0.4);
+    --grey-color3: rgba(0,0,0,0.5);
 }

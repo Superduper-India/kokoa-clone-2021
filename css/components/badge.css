@@ -1,0 +1,21 @@
+.badge {
+    background-color: #ff6129;
+    width: 30px;
+    height: 30px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-weight: 600;
+}
+.update-badge {
+    background-color: #ff6129;
+    width: 6px;
+    height: 6px;
+    border-radius: 3px;
+    right: 50px;
+    position: absolute;
+    right: -8px;
+    bottom: 22px;
+}
